@@ -1,0 +1,49 @@
+.button-explore {
+  height: 50px;
+  padding: 0 1rem;
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  color: $white;
+  background: $gradient-1;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background: $gradient-2;
+  }
+}
+
+.button-functioning {
+  height: 4.5rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  border: none;
+  box-shadow: $shadow1;
+  font-size: 16px;
+  font-weight: 600;
+  background: $accent-2;
+  position: relative;
+  &--number {
+    position: absolute;
+    z-index: 2;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    color: $white;
+    border-radius: 50%;
+    left: -12px;
+  }
+  &--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+    img {
+      padding: 0 1.5rem 0 2.5rem;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+/// @type Color
+$primary: #9356dc;
+$secondary: #ff79da;
+$tertiary: #99e2d0;
+
+$accent-1: #eaeaea;
+$accent-2: #f6f6f6;
+$accent-3: #353535;
+
+$white: #fff;
+$black: #000;
+
+/// @type Gradient
+$gradient-1: linear-gradient(193.33deg, $primary -11.44%, $secondary 123.93%);
+$gradient-2: linear-gradient(200.64deg, $primary -5.2%, $secondary 110.74%),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));

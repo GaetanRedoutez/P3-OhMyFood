@@ -1,0 +1,45 @@
+.header {
+  &-title {
+    display: flex;
+    justify-content: center;
+    box-shadow: $shadow1;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  &-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    gap: 0.5rem;
+    background-color: $accent-1;
+    box-shadow: $shadow1;
+    color: $accent-3;
+    font-size: 16px;
+    height: 50px;
+  }
+
+  &-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: $accent-2;
+    &--title {
+      text-align: center;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+    &--subtitle {
+      padding: 0 0 1.5rem 0;
+      text-align: center;
+      font-weight: 300;
+      color: $accent-3;
+      font-size: 18px;
+    }
+  }
+}
