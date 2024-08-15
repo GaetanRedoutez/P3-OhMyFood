@@ -22,24 +22,4 @@
     height: 50px;
   }
 
-  &-explore {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
-    background-color: $accent-2;
-    &--title {
-      text-align: center;
-      padding-left: 3rem;
-      padding-right: 3rem;
-    }
-    &--subtitle {
-      padding: 0 0 1.5rem 0;
-      text-align: center;
-      font-weight: 300;
-      color: $accent-3;
-      font-size: 18px;
-    }
-  }
 }

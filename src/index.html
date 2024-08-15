@@ -17,33 +17,36 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <header class="header">
       <div class="header-title">
-        <img
-          class="header-title--img"
-          src="assets/images/logo/ohmyfood@2x.svg"
-          alt="Logo OhMyFood"
-        />
+        <a href="index.html">
+          <img
+            class="header-title--img"
+            src="assets/images/logo/ohmyfood@2x.svg"
+            alt="Logo OhMyFood"
+          />
+        </a>
       </div>
 
       <div class="header-location">
         <i class="fa-sharp fa-solid fa-location-dot" style="color: #353535"></i>
         <span class="header-location--texte">Paris, Belleville</span>
       </div>
-
-      <div class="header-explore">
-        <div class="header-explore--title section-title">
-          Réservez le menu qui vous convient
-        </div>
-        <div class="header-explore--subtitle">
-          Découvrez des restaurants d’exception, sélectionnés par nos soins.
-        </div>
-        <button class="header-explore--button button-explore">
-          Explorer nos restaurants
-        </button>
-      </div>
     </header>
+
+    <div class="explore">
+      <div class="explore-title section-title">
+        Réservez le menu qui vous convient
+      </div>
+      <div class="explore-subtitle">
+        Découvrez des restaurants d’exception, sélectionnés par nos soins.
+      </div>
+      <button class="explore-button button-explore">
+        Explorer nos restaurants
+      </button>
+    </div>
 
     <div class="functioning">
       <div class="functioning-title section-title">Fonctionnement</div>
@@ -114,9 +117,7 @@
             <div class="restaurant-card--content_text__title">
               La note enchantée
             </div>
-            <div class="restaurant-card--content_text__subtitle">
-              Charonne
-            </div>
+            <div class="restaurant-card--content_text__subtitle">Charonne</div>
           </div>
           <!-- <div class="restaurant-card--content_fav">
             <img class="" src="./assets/images/icons/like.svg" alt="">
@@ -174,5 +175,19 @@
         </div>
       </a>
     </div>
+
+    <footer class="footer">
+      <div class="footer-title logo">ohmyfood</div>
+      <div class="footer-content">
+        <a href="#" class="footer-content--link">
+          <i class="fa-solid fa-utensils fa-xs"></i>Proposer un restaurant
+        </a>
+        <a href="#" class="footer-content--link">
+          <i class="fa-solid fa-handshake-angle fa-xs"></i>Devenir partenaire
+        </a>
+        <a href="#" class="footer-content--link">Mentions légales</a>
+        <a href="mailto:" class="footer-content--link">Contact</a>
+      </div>
+    </footer>
   </body>
 </html>
