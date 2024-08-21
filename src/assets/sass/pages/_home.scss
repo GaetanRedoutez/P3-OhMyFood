@@ -70,13 +70,12 @@
           font-size: 17px;
         }
       }
-
-
-      i{
-        color: red;
-        &:hover{
-          color: green;
-        }
+      &_icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
       }
     }
   }

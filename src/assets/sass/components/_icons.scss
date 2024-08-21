@@ -1,12 +1,44 @@
-.fa-list-ul{
-    color: $icon-1;
+.fa-list-ul {
+  color: $icon-1;
 }
 
-.fa-mobile-screen-button{
-    color: $icon-1;
+.fa-mobile-screen-button {
+  color: $icon-1;
 }
 
-.fa-store{
-    color: $icon-2;
+.fa-store {
+  color: $icon-2;
 }
 
+// .fa-solid.fa-heart {
+//   color: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+
+//   z-index: 1;
+//   position: absolute;
+//   opacity: 0;
+//   &:hover {
+//     transition: $transition-1;
+//     opacity: 1;
+//   }
+// }
+
+.icon {
+  &-liked {
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    &:hover {
+      transition: $transition-1;
+      opacity: 1;
+    }
+  }
+  &-notLiked {
+    width: 22px;
+    height: 22px;
+    opacity: 1;
+    &:hover {
+      transition: $transition-1;
+      opacity: 0;
+    }
+  }
+}

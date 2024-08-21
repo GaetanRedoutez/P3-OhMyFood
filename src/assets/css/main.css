@@ -90,11 +90,12 @@ a {
   font-weight: 300;
   font-size: 17px;
 }
-.restaurant-card--content i {
-  color: red;
-}
-.restaurant-card--content i:hover {
-  color: green;
+.restaurant-card--content_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .button-explore {
@@ -164,6 +165,25 @@ a {
 
 .fa-store {
   color: #9356dc;
+}
+
+.icon-liked {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+}
+.icon-liked:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+.icon-notLiked {
+  width: 22px;
+  height: 22px;
+  opacity: 1;
+}
+.icon-notLiked:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
 }
 
 .header-title {
