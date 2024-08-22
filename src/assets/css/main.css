@@ -147,6 +147,15 @@ a {
   width: 40px;
   margin-bottom: 0.5rem;
 }
+.menu-content--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.menu-content--button button {
+  width: 190px;
+}
 
 .location {
   display: flex;
@@ -265,7 +274,7 @@ a {
   position: fixed;
   z-index: 100;
   background-color: #fff;
-  animation: hideLoader 0.5s forwards;
+  animation: hideLoader 3.5s forwards;
 }
 .loader-spin {
   border: 12px solid #eaeaea;

@@ -8,7 +8,7 @@
   position: fixed;
   z-index: 100;
   background-color: $white;
-  animation: hideLoader 0.5s forwards;
+  animation: hideLoader 3.5s forwards;
   &-spin {
     border: 12px solid $accent-1;
     border-top: 12px solid $primary;
