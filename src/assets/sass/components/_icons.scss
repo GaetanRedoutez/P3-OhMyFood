@@ -38,7 +38,13 @@
     opacity: 1;
     &:hover {
       transition: $transition-1;
-      opacity: 0;
     }
   }
 }
+
+.fa-solid.fa-arrow-left {
+  color: $accent-3;
+  top: 30px;
+  left: 30px;
+}
+

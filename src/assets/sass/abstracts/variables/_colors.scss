@@ -6,6 +6,8 @@ $tertiary: #99e2d0;
 $accent-1: #eaeaea;
 $accent-2: #f6f6f6;
 $accent-3: #353535;
+$accent-tertiary: #008766;
+$accent-border:#99E2D0;
 
 $white: #fff;
 $black: #000;
@@ -15,5 +17,9 @@ $icon-2: $primary;
 
 /// @type Gradient
 $gradient-1: linear-gradient(193.33deg, $primary -11.44%, $secondary 123.93%);
-$gradient-2: linear-gradient(200.64deg, $primary -5.2%, $secondary 110.74%),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+$gradient-2: linear-gradient(
+    193.33deg,
+    rgba($primary, 0.8) -11.44%,
+    rgba($secondary, 0.8) 123.93%
+  ),
+  rgba(255, 255, 255, 0.2);
