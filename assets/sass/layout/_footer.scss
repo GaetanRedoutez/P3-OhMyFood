@@ -24,5 +24,17 @@
                 width: 20px;
             }
         }
+
+        @include respond-to("lg") {
+            flex-direction: row;
+            gap: 2rem;
+        }
+    }
+
+    @include respond-to("lg") {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: end;
+        gap: 3rem;
     }
 }
