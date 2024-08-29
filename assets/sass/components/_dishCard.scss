@@ -54,10 +54,10 @@
     min-width: 60px;
     border-radius: 0 15px 15px 0;
     margin: 0 -60px 0 1rem;
-    transition: margin-right 1s ease;
+    transition: margin-right 0.5s ease;
     i {
       transform: rotate(0);
-      transition: transform 1s ease;
+      transition: transform 0.5s ease;
     }
   }
 
