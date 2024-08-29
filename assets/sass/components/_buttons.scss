@@ -1,16 +1,22 @@
-.button-explore {
+.button-styled {
   height: 50px;
   padding: 0 1rem;
   border-radius: 25px;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-size: 16px;
   color: $white;
-  background: $gradient-1;
   border: none;
   cursor: pointer;
+  background-image: $gradient-button;
+  background-size: 200%;
+  background-position: left;
+  transition: background-position 0.5s ease-in-out;
+
   &:hover {
-    background: $gradient-2;
+    background-position: right;
   }
 }
 
