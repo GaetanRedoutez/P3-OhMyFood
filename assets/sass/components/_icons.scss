@@ -10,44 +10,13 @@
   color: $icon-2;
 }
 
-// .fa-solid.fa-heart {
-//   color: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-
-//   z-index: 1;
-//   position: absolute;
-//   opacity: 0;
-//   &:hover {
-//     transition: $transition-1;
-//     opacity: 1;
-//   }
-// }
-
-.icon {
-  &-liked {
-    z-index: 1;
-    position: absolute;
-    opacity: 0;
-    &:hover {
-      transition: $transition-1;
-      opacity: 1;
-    }
-  }
-  &-notLiked {
-    width: 22px;
-    height: 22px;
-    opacity: 1;
-    &:hover {
-      transition: $transition-1;
-    }
-  }
-}
-
 .likeIcon {
   position: relative;
   display: inline-block;
   width: 2em;
   height: 2em;
-  .empty,.solid{
+  .empty,
+  .solid {
     position: absolute;
     top: 0;
     left: 0;
@@ -62,7 +31,7 @@
 
   .solid {
     opacity: 0;
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    background: $gradient-1;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

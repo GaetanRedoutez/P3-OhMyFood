@@ -24,6 +24,7 @@
 
 .functioning {
   padding: 2rem;
+  padding-bottom: 4rem;
   &-choose {
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@
   @include respond-to("lg") {
     margin: auto;
     max-width: 1050px;
+    padding-bottom: 2rem;
   }
 }
 
@@ -53,7 +55,6 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       column-gap: 4.5rem;
-      row-gap: 2rem;
     }
   }
   &-title {

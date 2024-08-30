@@ -6,9 +6,10 @@
     object-fit: cover;
   }
   &-content {
-    border-radius: 3rem;
+    border-radius: 3rem 3rem 0 0;
     position: relative;
-    transform:translateY(-50px);
+    // transform:translateY(-50px);
+    margin-top: -50px;
     background-color: $accent-2;
     &--title {
       display: flex;
@@ -17,6 +18,8 @@
       align-items: center;
       padding: 1.5rem;
       h2 {
+        font-size: 28px;
+        font-weight: 400;
         padding-right: 2rem;
       }
       @include respond-to("lg") {
