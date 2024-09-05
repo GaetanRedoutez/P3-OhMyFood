@@ -50,6 +50,8 @@
   padding: 2rem;
   background-color: $accent-2;
   &-cards {
+    display: flex;
+    flex-direction: column;
     @include respond-to("lg") {
       max-width: 1050px;
       display: grid;
