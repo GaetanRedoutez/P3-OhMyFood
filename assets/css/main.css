@@ -194,6 +194,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2509803922);
   font-size: 16px;
   color: #fff;
   border: none;
@@ -205,6 +206,7 @@ a {
 }
 .button-styled:hover {
   background-position: 0 0;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
 }
 
 .button-functioning {
@@ -331,6 +333,7 @@ a {
 @keyframes hideLoader {
   100% {
     display: none;
+    visibility: hidden;
   }
 }
 .dishCard {

@@ -34,5 +34,6 @@
 @keyframes hideLoader {
   100% {
     display: none;
+    visibility: hidden;
   }
 }
